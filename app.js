@@ -7,4 +7,4 @@
   console.log('Total Memory' + totalMemory);
  
   console.log(`Total Memory: ${totalMemory}`);
-  console.log(`TotalMemory: ${freemem}`);
+  console.log(`Free memory: ${freeMemory}`);
