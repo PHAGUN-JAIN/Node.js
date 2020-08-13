@@ -5,8 +5,8 @@ function sayHi(){
 sayHi();
 
 //function expression
-var bye = function{
+var sayBye = function(){
   console.log("bye");
 };
 
-bye;
+sayBye();
