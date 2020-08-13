@@ -7,6 +7,6 @@ var adder = function(a,b){
 };
  var pi = 3.14;
 //module,export is just an empty object we can either use that directly or assign it different properties
-module.exports = counter;
-module.adder = adder;
-module.pi = pi;
+module.exports.counter = counter;
+module.exports.adder = adder;
+module.exports.pi = pi;
