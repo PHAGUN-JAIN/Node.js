@@ -1,3 +1,3 @@
- var counter = require('./counter');
+ var count = require('./counter');
 
- console.log(counter(['jain','java','c']));
+ console.log(count(['jain','java','c']));
