@@ -14,10 +14,12 @@ var ryu = new person('ryu');
 
 var people = [james,mary,ryu];
 
-people.forEach(function(person){
+people.forEach(function(person){            //attaching event to the objects
+
   person.on('speak', function(mssg){
-  console.log(person.name + 'said:' + mssg);
+                     console.log(person.name + 'said:' + mssg);
   });
+
 });
 
 james.emit('speak', 'hey dudes');
