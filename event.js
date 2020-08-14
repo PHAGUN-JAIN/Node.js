@@ -12,7 +12,15 @@ var mary = new person('mary');
 var ryu = new person('ryu');
                            //all these are objects which reffer to the events module wih reference of util modukes interince functionality
 
+var people = [james,mary,ryu];
 
+people.forEach(function(person){
+  person.on('speak', function(mssg){
+  console.log(person.name + 'said:' + mssg);
+  });
+});
+
+james.emit('speak', 'hey dudes');
 /*
 
  var myEmitter = new events.EventEmitter();             //creating new object for the referred module
