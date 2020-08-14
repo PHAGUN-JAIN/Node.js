@@ -1,0 +1,17 @@
+when we browse the internetwork the browser(client) makes request to other side hosting software(server)
+now for communication to take place both applications aggress on some rules of communication (http,ftp,etc)
+the way or set of rules followed to structure data is called http, ftp etc,
+now ,after that there is another protocol/ set of rules for transferring thonse structured packets to other side
+known as tcp
+
+now, suppose you are hosting a server how would you know the request made my the client is for node or any other softwarre
+the answer to that is , every program runnig on a computer listens to a request on a parrticular poort no.
+
+
+now how requests and response actually gets excchanged
+
+like html page where we have a head section which provides additional information to browser
+but, do not show on actual page quite same is with requests and responses when client requests
+the request goes to the server as aa combinition of request and request header the purpose of these
+headers is to provide additional information to the server like content type, status
+and same goes with the responses they are combination of response + response headers
