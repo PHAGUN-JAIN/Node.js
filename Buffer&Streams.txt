@@ -2,3 +2,8 @@ Buffer
 -Temporary storage spot for chunk of data that is being transferred from one place to the other
 -the buffer is filled with data then passes along
 -transfers small chunks of data at a time
+
+
+Stream
+- its just a stream of data that flows over time from one place to another
+- the data flows down the stream to buffer collects there and flows downstream to client
