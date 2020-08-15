@@ -1,0 +1,4 @@
+Buffer
+-Temporary storage spot for chunk of data that is being transferred from one place to the other
+-the buffer is filled with data then passes along
+-transfers small chunks of data at a time
