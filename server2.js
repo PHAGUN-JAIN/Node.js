@@ -14,7 +14,7 @@ var server = http.createServer(function(req,res){
     res.writeHead(200,{'Content-Type':'application/json'});
     res.end(JSON.stringify(ninjas));
   }else {
-    res.writeHeadd(404,{'Content-Type':'Text/plain'});
+    res.writeHead(404,{'Content-Type':'Text/plain'});
     var mssg = "you have done something wrong :()";
     res.end(mssg);
   }
