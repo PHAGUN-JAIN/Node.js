@@ -1,0 +1,11 @@
+HTTP REQUESTS
+//these all are methods which contain information about what kind of request is made
+-GET
+-POST
+-DELETE
+-POST
+
+HOW To RESPOND TO THE REQUESTS
+-GET -app.get('route',fn)
+-POST -app.post('route',fn)
+-DELETE app.delete('route',fn)
