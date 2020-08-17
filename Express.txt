@@ -1,0 +1,5 @@
+Express : is the most popularly used module in NODEJS
+it has
+      -easy and flexible routing system
+      -Integrates with many templating engines
+      -Contains a middleware framework
