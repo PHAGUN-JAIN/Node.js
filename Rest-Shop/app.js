@@ -6,3 +6,5 @@ app.use((req, res, next)=>{
     message:'it is working bitch!'
   });
 });
+
+module.exports=app;
