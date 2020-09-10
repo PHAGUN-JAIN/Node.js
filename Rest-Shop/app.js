@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const productRoutes = require('./api/routes/products');
-const orderRoutes = require('./api/routes/orders')
+const orderRoutes = require('./api/routes/orders');
 //this is the middleware from where all the requests are funneled through
 /*
 app.use((req, res, next)=>{
